@@ -1,0 +1,32 @@
+{
+  "1f34cdd0-5db6-42b7-8d45-031b34e0bbd2": {
+    "appActions": [
+      "providers/PowerPlatform.Governance/Operations/Read",
+      "providers/PowerPlatform.Governance/Operations/Write",
+      "providers/PowerPlatform.Governance/Operations/Delete"
+    ],
+    "connectionRef": {
+      "apiTier": "Standard",
+      "displayName": "SharePoint",
+      "iconUri": "https://connectoricons-prod.azureedge.net/u/juanq/gateway/greyhound/3000.150.11/1.0.1613.3116/sharepointonline/icon.png",
+      "id": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+      "parameterHints": {},
+      "parameterHintsV2": {}
+    },
+    "datasets": {
+      "https://escolatrabalhador4.sharepoint.com/sites/SiteParaAvaliaoDeProvasEscolares": {
+        "dataSources": {
+          "Quadro de Professores": {
+            "tableName": "1112dbf8-64b8-40bf-a7fa-24399e620553"
+          }
+        }
+      }
+    },
+    "dataSources": [
+      "Quadro de Professores"
+    ],
+    "dependencies": {},
+    "dependents": [],
+    "id": "1f34cdd0-5db6-42b7-8d45-031b34e0bbd2"
+  }
+}

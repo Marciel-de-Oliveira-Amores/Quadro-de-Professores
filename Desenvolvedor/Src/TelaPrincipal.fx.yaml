@@ -1,0 +1,58 @@
+TelaPrincipal As screen:
+    BackgroundImage: ='funny-science-professor-cartoon-character-3481878'
+    Fill: =RGBA(255, 255, 255, 1)
+    OnVisible: |
+        =
+
+    Rectangle2 As rectangle:
+        BorderColor: =RGBA(179, 157, 106, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =6
+        Fill: =RGBA(39, 113, 194, 1)
+        Height: =344
+        Width: =640
+        Y: =792
+        ZIndex: =5
+
+    Label2 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =127
+        Size: =59
+        Text: ="PROFESSORES"
+        Width: =557
+        X: =41
+        Y: =900
+        ZIndex: =8
+
+    Rectangle2_1 As rectangle:
+        BorderColor: =RGBA(179, 157, 106, 1)
+        BorderStyle: =BorderStyle.None
+        BorderThickness: =6
+        Fill: =RGBA(39, 113, 194, 1)
+        Height: =344
+        Width: =640
+        ZIndex: =10
+
+    Label1 As label:
+        FontWeight: =FontWeight.Bold
+        Height: =273
+        Size: =53
+        Text: ="QUADRO"
+        Width: =364
+        X: =157
+        Y: =35
+        ZIndex: =11
+
+    Icon1_1 As icon.ChevronRight:
+        Color: =RGBA(255, 255, 255, 1)
+        Height: =46
+        Icon: =Icon.ChevronRight
+        OnSelect: =Navigate(QuadroFuncionário,ScreenTransition.Fade)
+        PaddingBottom: =2
+        PaddingRight: =2
+        PaddingTop: =2
+        Width: =44
+        X: =554
+        Y: =35
+        ZIndex: =12
+

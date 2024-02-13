@@ -1,0 +1,51 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_sharepointonline",
+    "CdpRevision": {
+      "BaseUrl": "/",
+      "LastChangedTimeString": "2024-02-08T17:53:25.4260000Z",
+      "RevisionNumber": 1
+    },
+    "ConnectedDataSourceInfoNameMapping": {
+      "{Attachments}": "Anexos",
+      "{Attachments}@odata.type": "{Attachments} ({Attachments}@odata.type)",
+      "{FilenameWithExtension}": "Nome de arquivo com extensão",
+      "{FullPath}": "Caminho Completo",
+      "{HasAttachments}": "Tem anexos",
+      "{Identifier}": "Identificador",
+      "{IsFolder}": "ÉPasta",
+      "{Link}": "Link para o item",
+      "{ModerationComment}": "Comentários associados à aprovação de conteúdo deste item de lista",
+      "{ModerationStatus}": "Status de aprovação de conteúdo",
+      "{Name}": "Nome ({Name})",
+      "{Path}": "Caminho da pasta",
+      "{Thumbnail}": "Miniatura",
+      "{TriggerWindowEndToken}": "Token de Fim da Janela de Acionamento",
+      "{TriggerWindowStartToken}": "Token de Início da Janela de Acionamento",
+      "{VersionNumber}": "Número da versão",
+      "Afastados": "Afastados",
+      "Author": "Criado por",
+      "Author#Claims": "Criado por Claims",
+      "ComplianceAssetId": "ID de Ativo de Conformidade",
+      "Created": "Criado",
+      "Editor": "Modificado por",
+      "Editor#Claims": "Modificado por Claims",
+      "Horario": "Data",
+      "ID": "ID",
+      "Mat_x00e9_ria": "Matéria",
+      "Modified": "Modificado",
+      "Nome": "Nome",
+      "OData__ColorTag": "Pressione Delete para excluir o ícone.",
+      "Per_x00ed_odo": "Período",
+      "RetornoasAtividades": "Retorno as Atividades",
+      "Sobrenome": "Sobrenome",
+      "Title": "Title"
+    },
+    "DatasetName": "https://escolatrabalhador4.sharepoint.com/sites/SiteParaAvaliaoDeProvasEscolares",
+    "EncodeDataset": true,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "Name": "Quadro de Professores",
+    "Type": "ConnectedDataSourceInfo"
+  }
+]
